@@ -9,4 +9,6 @@ docker run -d --rm --cap-add sys_ptrace -p127.0.0.1:2222:22 --name clion_remote_
 ssh-keygen -f "$HOME/.ssh/known_hosts" -R "[localhost]:2222"
 ```
 
+Or use the supplied `docker-compose.yml`.
+
 ssh credentials (test user) `user@password`
