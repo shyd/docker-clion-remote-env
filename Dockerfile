@@ -10,7 +10,7 @@ RUN apt-get update \
       cmake \
       rsync \
       tar \
-      python \
+      python3 \
       git \
       dh-autoreconf \
   && apt-get clean
